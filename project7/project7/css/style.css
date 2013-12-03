@@ -1,0 +1,26 @@
+body {background-color: lightgreen;}
+
+  @media only screen and (max-width: 400px;){
+ 
+    img {max-width: 100%}
+  }
+  
+  @media screen and (min-width: 800px;)
+  {img {float:right;
+    max width: 40%;}
+  main {float: left}
+  
+  nav {float:left}
+ 
+    
+#A {
+  z-index: 10
+}
+
+#B {
+  z-index: 1
+}
+
+#C {
+  z-index: -10
+}

@@ -1,0 +1,12 @@
+body {font-family: sans-serif}
+
+h1 {font-family: serif;
+    color: limegreen}
+h2{font-family: serif;
+color: limegreen  }
+h3{font-family: serif:
+color: limegreen}
+
+p.float {float:right; border: 4px limegreen; border-style: double}
+
+blockquote {background-color: mintcream}

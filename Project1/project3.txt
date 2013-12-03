@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Project3</title>
+
+    <link rel="stylesheet" href="css/project3style.css" media="screen" type="text/css" />
+
+</head>
+
+<body>
+
+  <Head>
+  <Title>Emily Kaes</Title>
+  <Meta  This page the first Web Development project by Emily Kaes.  Date Created: 9/3/13></meta>
+ </Head>
+
+<body>
+
+  <h1> Emily's Project</h1>
+        <img src="EmilyKaes.jpg" alt="Emily Kaes"> <br>
+
+  <p> I am <em>very</em> nervous about graduating this upcoming May.  It is very scary to head into the real world.  I am hoping to get a job somewhere in the business world, though I am also open to a position at a charity organization.  I would really like to nail down a position somewhere <strong>soon</strong>.  It is very stressful looking for a position!  I want to do something that I can enjoy, make a career out of, and enjoy for the rest of my life!
+
+    <table>
+      <caption>Fall 2013 Class Schedule</caption>
+      <thead>
+      <th>Class Name</th>
+      <th>Day</th>
+      <th>Time</th>
+      <th>Location</th>
+      <th>Credits</th>
+      </thead>
+      <tbody>
+      <tr>
+        <td>Money, Banking, and Finance</td>
+        <td>MW</td>
+        <td>11-12:15</td>
+        <td>Geddes B001</td>
+        <td>3</td>
+        </tr>
+      <tr>
+        <td>Web Development</td>
+        <td>MW</td>
+        <td>2-3:15</td>
+        <td>Debartolo 331</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Collective Bargaining</td>
+        <td>TR</td>
+        <td>9:30-10:45</td>
+        <td>Debartolo 149</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Information Security</td>
+        <td>TR</td>
+        <td>11-12:15</td>
+        <td>Pasquerilla Center 102</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Ethics</td>
+        <td>TR</td>
+        <td>3:30-4:45</td>
+        <td>Debartolo 242</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Bioinformatics</td>
+        <td>W</td>
+        <td>3:30-4:20</td>
+        <td>Jordan 105</td>
+        <td>1</td>
+      </tr>
+      </tbody>
+  </table>
+
+        <h2>Favorite Teams</h2>
+        <ol class=Favorite Teamsa>
+          <li>Cincinnati Bengals</li>
+          <li>Notre Dame Fighting Irish</li>
+          <li>Cincinnati Reds</li>
+      </ol>
+
+  <h2>My favorite cities that I have visited</h2>   
+  <ul class=My Favorite cities that I have visited>
+        <li>San Francisco</li>
+        <li>Washington D.C.</li>
+        <li>Santiago, Chile</li>
+        <li>Orlando, FL</li>
+
+    <blockquote>
+      <p>“It is our choices, that show what we truly are, far more than our abilities.” --J. K Rowling</p>
+    </blockquote>
+
+    <h3> Contact Me </h3>
+    <form action="emily.php">
+      Name: <input type="text" name="name"><br>
+      Phone: <input type="tel" name="Phone"><br>
+      Email: <input type="email" name="Email"><br>
+      Feedback Type: <input name="type" type="radio" value="General"> General
+      <input name="type" type="radio" value="Complaint"> Complaint
+      <input name="type" type="radio" value="Help Needed"> Help Needed <br>
+      Comments:
+      <textarea name="paragraph">
+      </textarea>
+    </form>
+
+    <h3> External Links </h3>
+    <li><a href="http://www.linkedin.com/profile/view?id=160635005&locale=en_US&trk=tab_pro">My LinkedIn Page</a></li>
+    <li><a href="project1.html">Project 1</a></li>
+
+</body>
+
+</html>

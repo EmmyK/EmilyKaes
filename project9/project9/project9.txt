@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Project 9 | Resume</title>
+
+    <link rel="stylesheet" href="project9style.css" media="screen" type="text/css" />
+
+</head>
+
+<body>
+
+  <header role="banner" class="site-header">
+  Emily Kaes' Online Resume
+</header>
+
+<nav role="navigation" class="navigation">
+  <ul>
+    <li><a href="education">Education</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#activities">Activities</a></li>
+
+  </ul>
+</nav>
+
+<body role="main">
+   <div class="education" id="education">
+     <h1>Education</h1>
+     <p>
+     <b>University of Notre Dame</b><br>
+       Class of 2014<br>
+     <br>
+     Bachelor of the Arts <b>Economics</b><br>
+     Suppelementary Major <b>Computer Applications</b><br>
+     </p>
+     </div>
+     <br>
+     <br>
+     <div class="experience" id="experience">
+       <h1>Experience</h1>
+       <p>
+       <br>
+       Midwest Sports Supply, Inc. <b>Summer Intern- Web and Imaging Department</b>
+      <br>
+● Identified process solutions to streamline productivity after experiencing all department responsibilities<br>
+● Collaborated with a team to create, edit, and publish all website images<br>
+● Reviewed previously published images to assure consistent quality<br>
+       </p>
+
+  </div>
+
+<br>
+  <br>
+  <div class="activities" id="activities">
+    <h1>Activities</h1>
+    <p>
+    <b>Fayette County Cooperative Preschool</b> Social Media Coordinator<br>
+    <b>Leprechaun Legion</b> Vice President<br>
+    <b>Irish Fighting for St. Jude </b> Treasurer<br>
+    <b>Interhall and CoRec Sports</b> Team Captain<br>
+    <b>Student Employment</b> Center for Social Concerns front desk employee<br>
+    </p>
+  </div>
+
+    <br><br>
+
+ <footer role="contentinfo" class="site-footer id="site-footer">
+       <p>                                                        October 2014                                                              </p>          
+    <ul class="vcard">
+    <li class="fn">Emily Kaes</li>
+    <li class="email">ekaes@nd.edu</li>
+    <li class="tel">513-477-9512</li>
+	<li class="adr">Cincinnati, OH
+    <li><a class="url" href="http//www.nd.edu/~ekaes/capp30370.html">Emily Kaes Project Page</a></li>
+</ul>
+                                                         </footer>
+
+  <script src='http://codepen.io/assets/libs/fullpage/none.js'></script>
+
+</body>
+
+</html>

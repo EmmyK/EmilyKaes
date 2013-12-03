@@ -1,0 +1,42 @@
+.ball {
+  position: absolute;
+  width:50px;
+  height:50px;
+  border-radius: 65%;
+  background-color:blue;
+  -webkit-animation: 
+    move 1s ease infinite alternate,
+    colors 3s linear infinite alternate;
+}
+
+.kitten {
+  -webkit-animation:
+    catmove 2s linear infinite alternate;
+}
+
+@-webkit-keyframes colors{
+  0% {background: purple;}
+10% {background: blueviolet;}
+20% {background: blue;}
+30% {background: cyan;}
+40% {background: greenyellow;}
+50% {background: yellow;}
+60% {background: gold;}
+70% {background: orange;}
+80% {background:orangered;}
+90% {background: red;}
+100% {background: pink;}
+}
+
+@-webkit-keyframes move {
+  0% {-webkit-transform: translate(400px, 600px) ;}
+  100% {-webkit-transform: translate(400px, 0px) ;}
+}
+
+@-webkit-keyframes catmove {
+  0% {-webkit-transform: translate(0px, 500px) rotateY(180deg);}
+ 50% {-webkit-transform: translate(300px, 500px) rotateY(90deg);}
+  100% {-webkit-transform: translate(600px, 500px) rotateY(0deg);}
+}
+
+

@@ -1,0 +1,13 @@
+body
+{font-size: 110%;
+  font-family:'verdana;
+    background-color: darkturquoise;
+  color:white}
+
+ol {list-style:upper-roman}
+ul {list-style:circle}
+    
+h1 {text-shadow: .2em .2em .3em black}
+
+td, th {border: 1px solid #CCC;}
+table {border: 1px solid black; }

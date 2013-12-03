@@ -1,0 +1,33 @@
+body {font-family: sans-serif;
+background-image: url(treebark.png)}
+
+h1 {font-family: serif;
+    color: limegreen}
+h2{font-family: serif;
+color: limegreen  }
+h3{font-family: serif:
+color: limegreen}
+
+p.float {float:right;
+  border: 4px limegreen;
+  border-style: double;
+border-radius: 1em}
+
+blockquote {background-color: background: rgb(161,237,177); /* Old browsers */
+background: -moz-linear-gradient(top, rgb(161,237,177) 0%, rgb(65,198,87) 50%, rgb(31,193,74) 52%, rgb(76,155,20) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(161,237,177)), color-stop(50%,rgb(65,198,87)), color-stop(52%,rgb(31,193,74)), color-stop(100%,rgb(76,155,20))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgb(161,237,177) 0%,rgb(65,198,87) 50%,rgb(31,193,74) 52%,rgb(76,155,20) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgb(161,237,177) 0%,rgb(65,198,87) 50%,rgb(31,193,74) 52%,rgb(76,155,20) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgb(161,237,177) 0%,rgb(65,198,87) 50%,rgb(31,193,74) 52%,rgb(76,155,20) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgb(161,237,177) 0%,rgb(65,198,87) 50%,rgb(31,193,74) 52%,rgb(76,155,20) 100%); /* W3C */);
+padding: 15px}
+
+.image {
+  width:100%;
+  height:400px;
+  background:url(treebark.png);
+  center 0 no-repeat;
+  background-size:contain, cover;
+  border-radius: 1em;
+  box-shadow: 6px, 6px, 5px, grey
+}
