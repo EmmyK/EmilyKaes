@@ -1,0 +1,12 @@
+body {
+  background-color: skyblue;
+  color: white;}
+
+#mouseevent {
+  position: left;
+  width: 200px;
+  height: 200px;
+  background:black;
+  
+}
+
